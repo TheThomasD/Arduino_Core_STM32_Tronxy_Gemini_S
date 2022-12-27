@@ -328,10 +328,12 @@ extern "C" {
   * @param  None
   * @retval None
   */
+/* disabled for Tronxy Gemini S proprietary display software
 void EXTI0_IRQHandler(void)
 {
   HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_0);
 }
+*/
 
 /**
   * @brief This function handles external line 1 interrupt request.
